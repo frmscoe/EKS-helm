@@ -881,6 +881,16 @@ The same reasoning applies to passwords are that explicitly stated to need a sin
   - **value:** '[{"host": "valkey-cluster-primary-0.valkey-test-headless.default.svc.cluster.local", "port":6379}]'
 - `Repository`: This parameter specifies the name of a repository
   - **value:** frmscoe
+- `AUTH_URL`: This parameter specifies the Base URL where KeyCloak is hosted
+  - **value:** https://keycloak.example.com:8080
+- `KEYCLOAK_REALM`: This parameter specifies the KeyCloak Realm for Tazama
+  - **value:** tazama
+- `CERT_PATH_PRIVATE`: This parameter specifies the pem file path for signing Tazama tokens
+  - **value:** /path/to/private-key.pem
+- `CLIENT_SECRET`: This parameter specifies the secret of the KeyCloak client
+  - **value:** someClientGeneratedSecret123
+- `CLIENT_ID`: This parameter specifies the KeyCloak defined client for auth-lib
+  - **value:** auth-lib-client
 
 ### Adding Jenkins Jobs
 
