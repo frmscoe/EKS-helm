@@ -1004,7 +1004,7 @@ By completing these steps, you ensure that each Jenkins job can access the neces
 
 ### Deploying to the Cluster:
 
-**Dashboard → Deployments→ Pipelines→ Deploying All Rules and Rule Processors**
+**Dashboard → Deployments → Jenkins Agent -> Pipelines→ Deploying All Rules and Rule Processors**
 
 Run the Jenkins jobs that deploy the processors to the Tazama cluster. These jobs will reference the global environment variables you've configured, ensuring that each processor has the required connections and configurations.
 
